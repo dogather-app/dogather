@@ -17,7 +17,7 @@
 }
 .hero__title {
   font-size: 38px;
-  font-family: inherit;
+  font-family: "Helvetica", "Arial", sans-serif;
 }
 .hero__description {
   font-size: 1.2em;
@@ -34,6 +34,7 @@
 }
 .hero__btn :hover {
   transform: scale(0.1);
+  opacity: 0.8;
 }
 
 /* Tablet */
