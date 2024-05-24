@@ -1,7 +1,7 @@
 # React + Vite
 
 Project structure:
-
+```
 └── src/
     ├── assets/
     ├── api/
@@ -18,7 +18,7 @@ Project structure:
     │  ├── variables.css
     │  └── Hero.module.css
     └── utils/
-
+```
 src/
 The root directory for the source code of the project.
 
