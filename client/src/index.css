@@ -6,7 +6,6 @@
 }
 
 .innerNavbar{
-    margin-top: 20px;
    position: absolute;
    width: 1280px;
    height: 100%;
@@ -18,41 +17,75 @@
     justify-content: center;
     align-items: center;
 }
-
-.pageButtons{
-    margin-left:50px;
+.pageButtonsStyle{
+    position: absolute;
+    left: 296px;
+    margin-top: 20px;
     display: flex;
     flex-direction: row;
 }
-.pageButtons > img{
+.pageButtonsStyle > button > img{
     width: 12.01px;
     height: 12.02px;
     margin-left: 4px;
-    margin-top: 5px;
+    margin-top: 2px;
 }
-.pageButtons > p{
-    margin-left: 80px;
+
+.pageButtonsStyle > button > p{
+    font-family: 'Intel';
+    font-size: 18px;
+}
+
+.pageButtonsStyle > button{
+    margin-right: 80px;
+    display: flex;
+    flex-direction: row;
+    border: none;
+    background-color: transparent;
+    cursor:pointer;
 }
 
 .logo{
+    position: absolute;
+    left: 0;
+    margin-top: 28px;
     display: flex;
     flex-wrap: wrap;
 }
+.logo > p{
+    font-family: 'Intel';
+    font-size: 18px;
+    font-weight: bold;
+}
 
 .rightContent{
-    width: 500px;
+    
+    margin-top: 25px;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: end;
 }
 
 .login{
+    margin-top: 5px;
     display: flex;
     flex-direction: row;
     width: 100px;
 
 }
-.login > img{
+
+.login > button{
+    font-family: 'Intel';
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    border: none;
+    background-color: transparent;
+    cursor:pointer;
+}
+
+.login > button > img{
     width: 12.01px;
     height: 12.02px;
     margin-left: 4px;
@@ -60,6 +93,8 @@
 }
 
 .registerButton{
+    font-family: 'Intel';
+    font-size: 18px;
     background-color: #61C554;
     padding: 8px 32px 8px 32px;
     border-radius: 5px;
