@@ -1,0 +1,60 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap'); */
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    padding:0 100px;
+    align-items: center;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    /* border: 1px solid purple */
+}
+.navbar-logo {
+    display: inline-flex;
+    align-items: center;
+    font-weight: 600;
+    /* border: 1px solid red; */
+}
+
+.navbar-logo img {
+    margin-right: 4px;
+}
+
+.navbar-links {
+    display: flex;
+    /* border: 1px solid green; */
+    flex-grow: 2;
+    justify-content: space-between;
+    padding: 0 50px;
+    font-weight: 400;
+}
+
+.navbar-pages, .navbar-login {
+    display: flex;
+    list-style-type: none;
+}
+
+
+.navbar-link {
+    padding: 5px 40px;
+    /* border: 1px solid green; */
+}
+
+.navbar-link img {
+    margin-left: 4px;
+}
+
+
+.register-btn {
+    background-color: #61C554;
+    border-radius: 5px;
+    padding: 12px 32px;
+    font-size:18px;
+    color: #ffffff;
+    height: 43px;
+    width: 130px;
+    border: none;
+    cursor: pointer;
+}
